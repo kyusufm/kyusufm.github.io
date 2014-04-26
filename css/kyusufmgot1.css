@@ -91,7 +91,7 @@ background-image: none;
 	margin-top: 50px;
 }
 .skill{
-	background: #eedd66;
+	/*background: #eedd66;*/
 }
 .experience{
 
@@ -107,8 +107,8 @@ background-image: none;
 .bgwhite{
 	background: #fff;
 }
-#contact{
-
+.contact{
+  padding: 5px;
 }
 
 
@@ -426,6 +426,9 @@ li.seratus{
 	border-width: 2px;
 	border-color: grey;
 	padding: 2px;
+  clear: right;
+  position: relative;
+  float: left;
 
 }
 hr{

@@ -7,12 +7,13 @@ import design from '../public/design.png'
 import code from '../public/code.png'
 import consulting from '../public/consulting.png'
 import web1 from '../public/web1.png'
+import webkece from '../public/webkece.png'
 import web2 from '../public/web2.png'
-import web3 from '../public/web2.png'
-import web4 from '../public/web2.png'
-import web5 from '../public/web2.png'
-import web6 from '../public/web2.png'
-import web7 from '../public/web2.png'
+import web3 from '../public/web3.png'
+import web4 from '../public/web4.png'
+import web5 from '../public/web5.png'
+import web6 from '../public/web6.png'
+import des1 from '../public/des1.png'
 import {useState} from 'react'
 
 export default function Home() {
@@ -108,27 +109,29 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/4 flex-1">
-              <Image src={web1} alt={''} className="rounded-lg object-cover" />
-              <p>Samsat Provinsi Kalimantan Timur</p>
+            <div className="basis-1/4 flex-1 drop-shadow-md">
+              <Image src={web1} alt={'Develop web-application of SAMSAT East Borneo'} className="rounded-lg object-cover" />
             </div>
-            <div className="basis-1/4 flex-1">
+            <div className="basis-1/4 flex-1 drop-shadow-md">
               <Image src={web2} alt={''} className="rounded-lg object-cover" />
             </div>
-            <div className="basis-1/4 flex-1">
+            <div className="basis-1/4 flex-1 drop-shadow-md">
               <Image src={web3} alt={''} className="rounded-lg object-cover" />
             </div>
-            <div className="basis-1/4 flex-1">
+            <div className="basis-1/4 flex-1 drop-shadow-md">
               <Image src={web4} alt={''} className="rounded-lg object-cover" />
             </div>
-            <div className="basis-1/4 flex-1">
+            <div className="basis-1/4 flex-1 drop-shadow-md">
               <Image src={web5} alt={''} className="rounded-lg object-cover" />
             </div>
-            <div className="basis-1/4 flex-1">
+            <div className="basis-1/4 flex-1 drop-shadow-md">
               <Image src={web6} alt={''} className="rounded-lg object-cover" />
             </div>
-            <div className="basis-1/4 flex-1">
-              <Image src={web7} alt={''} className="rounded-lg object-cover" />
+            <div className="basis-1/4 flex-1 drop-shadow-md">
+              <Image src={webkece} alt={''} className="rounded-lg object-cover" />
+            </div>
+            <div className="basis-1/4 flex-1 drop-shadow-md">
+              <Image src={des1} alt={''} className="rounded-lg object-cover" />
             </div>
           </div>
 

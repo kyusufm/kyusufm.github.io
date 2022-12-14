@@ -91,7 +91,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10 justify-center">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 text-gray-800 basis-1/3 dark:shadow-teal-600 dark:text-teal-50" style={{textAlign: '-webkit-center'}}>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 text-gray-800 basis-1/3 dark:shadow-teal-600 dark:text-teal-50" >
               <Image src={design} width={100} height={100} alt={''} />
               <h3 className="text-lg font-medium pt-8 pb-2 font-burtons">Beautiful Design</h3>
               <p className="py-2">Whether you need a custom application, a responsive website, or a unique user interface, I am here to help. I have a keen eye for detail and a love for problem-solving, and I am always looking for new challenges to tackle.</p>
@@ -99,7 +99,7 @@ export default function Home() {
               <p className="py-1">Inkscape, Figma</p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/3 dark:shadow-teal-600 dark:text-teal-50" style={{textAlign: '-webkit-center'}}>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/3 dark:shadow-teal-600 dark:text-teal-50" >
               <Image src={code} width={100} height={100} alt={''} />
               <h3 className="text-lg font-medium pt-8 pb-2 font-burtons">Applications Development</h3>
               <p className="py-2">If you`re looking for a skilled and experienced software engineer and designer to help bring your vision to life, please don`t hesitate to contact me.</p>
@@ -109,7 +109,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/3 dark:shadow-teal-600 dark:text-teal-50" style={{textAlign: '-webkit-center'}} >
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/3 dark:shadow-teal-600 dark:text-teal-50"  >
               <Image src={consulting} width={100} height={100} alt={''} />
               
               <h3 className="text-lg font-medium pt-8 pb-2 font-burtons">Consulting</h3>

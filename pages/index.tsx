@@ -91,17 +91,17 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10 justify-center">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 text-gray-800 basis-1/3 dark:shadow-teal-600 dark:text-teal-50" >
+            <div className=" shadow-lg p-10 rounded-xl my-10 text-gray-800 basis-1/3 dark:shadow-teal-600 dark:text-teal-50" >
               <Image src={design} width={100} height={100} alt={''} />
-              <h3 className="text-lg font-medium pt-8 pb-2 font-burtons">Beautiful Design</h3>
+              <h3 className="text-2xl pt-8 pb-2 font-burtons">Beautiful Design</h3>
               <p className="py-2">Whether you need a custom application, a responsive website, or a unique user interface, I am here to help. I have a keen eye for detail and a love for problem-solving, and I am always looking for new challenges to tackle.</p>
               <h4 className="pt-4 text-teal-600 font-black">Tools i used</h4>
               <p className="py-1">Inkscape, Figma</p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/3 dark:shadow-teal-600 dark:text-teal-50" >
+            <div className=" shadow-lg p-10 rounded-xl my-10 basis-1/3 dark:shadow-teal-600 dark:text-teal-50" >
               <Image src={code} width={100} height={100} alt={''} />
-              <h3 className="text-lg font-medium pt-8 pb-2 font-burtons">Applications Development</h3>
+              <h3 className="text-2xl pt-8 pb-2 font-burtons">Applications Development</h3>
               <p className="py-2">If you`re looking for a skilled and experienced software engineer and designer to help bring your vision to life, please don`t hesitate to contact me.</p>
               <h4 className="pt-4 text-teal-600 font-black">Tools i used</h4>
               <p className="text-gray-800 py-1">
@@ -109,10 +109,10 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/3 dark:shadow-teal-600 dark:text-teal-50"  >
+            <div className=" shadow-lg p-10 rounded-xl my-10 basis-1/3 dark:shadow-teal-600 dark:text-teal-50"  >
               <Image src={consulting} width={100} height={100} alt={''} />
               
-              <h3 className="text-lg font-medium pt-8 pb-2 font-burtons">Consulting</h3>
+              <h3 className="text-2xl pt-8 pb-2 font-burtons">Consulting</h3>
               <p className="py-2">I offer expert services for website and application development. With years of experience and a passion for technology, I am dedicated to helping businesses achieve their goals. Whether you need a new website or are looking to improve an existing application, I can provide the personalized consultation and support you need.</p>
              
             </div>

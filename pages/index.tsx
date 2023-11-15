@@ -47,9 +47,9 @@ export default function Home() {
           As a Software Engineer and designer, I am passionate about creating beautiful and functional digital experiences. With a keen eye for detail and a love for problem-solving, I thrive on bringing complex ideas to life.
           </p>
         </div>
-        <div className="relative mx-auto bg-gradient-to-b from-teal-600  rounded-full w-80 h-80 mb-10 overflow-hidden md:h-96 md:w-96">
-          {/* <Image src={ylogo} fill className="rounded-full" alt={''}/> */}
-        </div>
+        {/* <div className="relative mx-auto bg-gradient-to-b from-teal-600  rounded-full w-80 h-80 mb-10 overflow-hidden md:h-96 md:w-96">
+          <Image src={ylogo} fill className="rounded-full" alt={''}/>
+        </div> */}
 
         <div className="text-4xl flex justify-center gap-16 pb-10 text-gray-600 dark:text-white">
           <a href="twitter.com/kyusufm" className="hover:text-blue-400"><AiFillTwitterCircle /></a>

@@ -48,7 +48,7 @@ export default function Home() {
           </p>
         </div>
         <div className="relative mx-auto bg-gradient-to-b from-teal-600  rounded-full w-80 h-80 mb-10 overflow-hidden md:h-96 md:w-96">
-          <Image src={ylogo} fill className="rounded-full" alt={''}/>
+          {/* <Image src={ylogo} fill className="rounded-full" alt={''}/> */}
         </div>
 
         <div className="text-4xl flex justify-center gap-16 pb-10 text-gray-600 dark:text-white">
@@ -66,9 +66,10 @@ export default function Home() {
 
         <section className="dark:shadow-teal-600 dark:text-teal-50">
           <div >
-          <h3 className="text-3xl py-1 max-w-xl mx-auto font-burtons">My Experiences</h3>
+          <h3 className="text-3xl py-1 max-w-xl mx-auto font-burtons">Experiences</h3>
 
             <ul className="text-md py-2 leading-8 text-gray-80 max-w-xl mx-auto ">
+
             <li className="text-md ">Freelance As <a href="#" target="_blank" className="text-teal-600 px-2 py-1 rounded-md ">Engineer and Designer</a>, 2012 ~ Present</li>
               <li className="text-md ">Sr. Software Engineer @ <a href="connexiocloud.com" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-600  bg-cyan-500 text-white px-2 py-1 rounded-md ">CONNEXIOCLOUD</a> , NEW YORK ~ 2022</li>
               <li className="text-md ">Lead Engineer @ <a href="kecenusantara.id" target="_blank" className="text-teal-600">PT. Kece Nusantara</a> , Jakarta ~ 2017-2022</li>

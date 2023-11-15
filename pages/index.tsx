@@ -71,7 +71,8 @@ export default function Home() {
             <ul className="text-md py-2 leading-8 text-gray-80 max-w-xl mx-auto ">
 
             <li className="text-md ">Freelance As <a href="#" target="_blank" className="text-teal-600 px-2 py-1 rounded-md ">Engineer and Designer</a>, 2012 ~ Present</li>
-              <li className="text-md ">Sr. Software Engineer @ <a href="connexiocloud.com" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-600  bg-cyan-500 text-white px-2 py-1 rounded-md ">CONNEXIOCLOUD</a> , NEW YORK ~ 2022</li>
+              <li className="text-md">Sr. Software Engineer @ <a href="solveeducation.com" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-600  bg-cyan-500 text-white px-2 py-1 rounded-md ">Solve Education</a> , Bandung ~ 2023</li>
+              <li className="text-md ">Sr. Software Engineer @ <a href="connexiocloud.com" target="_blank" className="text-teal-600 ">CONNEXIOCLOUD</a> , NEW YORK ~ 2022</li>
               <li className="text-md ">Lead Engineer @ <a href="kecenusantara.id" target="_blank" className="text-teal-600">PT. Kece Nusantara</a> , Jakarta ~ 2017-2022</li>
               <li className="text-md ">Lead Engineer @ <a href="#" target="_blank" className="text-teal-600">Inaship</a> , Jakarta ~ 2016-2017</li>
               <li className="text-md ">Sr. Web Developer @ <a href="aqi.co.id" target="_blank" className="text-teal-600">Asia Quest Indonesia</a>  ~ 2014-2016 </li>

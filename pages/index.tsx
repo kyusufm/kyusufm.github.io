@@ -56,9 +56,7 @@ export default function Home() {
           <a href="linkedin.com/in/kyusufm" className="hover:text-blue-600"><AiFillLinkedin /></a>
           <a href="#" className="hover:text-red-600"><AiFillYoutube /></a>
           <a href="#" className="hover:text-red-600"><AiFillMail /></a>
-          
-          
-          
+
         </div>
 
         </section>

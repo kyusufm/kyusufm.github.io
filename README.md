@@ -1,2 +1,1 @@
-# kyusufm.github.io
- 
+# ethan-portfolio-starter

@@ -80,7 +80,6 @@ jobs:
         run: npm run build
       - name: Static HTML export with Next.js
         run: |
-          echo "module.exports = { target: 'experimental-serverless-trace' }" > next.config.js
           npm run build
           npm run export
       - name: Upload artifact

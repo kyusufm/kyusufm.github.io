@@ -84,7 +84,10 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./out
+          github_token: ${{ secrets.GH_TOKEN }}
+          publish_dir: ./out
+          publish_branch: v3
+          
 
   # Deployment job
   deploy:

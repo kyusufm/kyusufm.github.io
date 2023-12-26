@@ -76,17 +76,12 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       # - name: Static HTML export with Next.js
       #   run: ${{ steps.detect-package-manager.outputs.runner }} next export
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GH_TOKEN }}
-          publish_dir: ./out
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./out
-          publish_branch: v3
+          
           
 
   # Deployment job

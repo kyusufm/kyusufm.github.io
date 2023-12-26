@@ -78,7 +78,6 @@ jobs:
       #   run: ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Build and Export Next.js app
         run: |
-          echo 'module.exports = {experimental: {output: true}}' > next.config.js
           next build
           npx next telemetry disable
       - name: Upload artifact

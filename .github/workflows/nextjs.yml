@@ -79,7 +79,7 @@ jobs:
       - name: Build and export Next.js app
         run: |
           npm run build
-          npx next export
+          npm run export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

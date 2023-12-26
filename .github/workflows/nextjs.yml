@@ -76,8 +76,8 @@ jobs:
       #   run: ${{ steps.detect-package-manager.outputs.runner }} next build
       # - name: Static HTML export with Next.js
       #   run: ${{ steps.detect-package-manager.outputs.runner }} next export
-      - name: Build Next.js app
-        run: npm run build
+      - name: Configure Next.js for export
+        run: echo "module.exports = { target: 'serverless' }" > next.config.js
       - name: Static HTML export with Next.js
         run: npx next telemetry disable && npx next export
       - name: Upload artifact

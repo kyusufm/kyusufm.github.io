@@ -76,10 +76,14 @@ jobs:
       #   run: ${{ steps.detect-package-manager.outputs.runner }} next build
       # - name: Static HTML export with Next.js
       #   run: ${{ steps.detect-package-manager.outputs.runner }} next export
-      - name: Configure Next.js for export
-        run: echo "module.exports = { target:'serverless'}">next.config.js
-      - name: Static HTML export with Next.js
-        run: npx next telemetry disable && npx next export
+      - name: Build Next.js app
+        run: npm run build
+      - name: Generate export
+        run: |
+          echo 'module.exports = {experimental: {output: true}}' > next.config.js
+          npx next telemetry disable
+          npx next build
+          npx next export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

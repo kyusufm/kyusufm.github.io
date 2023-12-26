@@ -79,9 +79,7 @@ jobs:
       - name: Build Next.js app
         run: npm run build
       - name: Static HTML export with Next.js
-        run: |
-          npm run build
-          npm run export
+        run: npx next telemetry disable && npx next export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

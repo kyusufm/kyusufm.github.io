@@ -76,13 +76,11 @@ jobs:
       #   run: ${{ steps.detect-package-manager.outputs.runner }} next build
       # - name: Static HTML export with Next.js
       #   run: ${{ steps.detect-package-manager.outputs.runner }} next export
-      - name: Build Next.js app
-        run: npm run build
-      - name: Generate export
+      - name: Build and Export Next.js app
         run: |
           echo 'module.exports = {experimental: {output: true}}' > next.config.js
+          npm run build
           npx next telemetry disable
-          npx next build
           npx next export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1

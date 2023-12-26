@@ -79,9 +79,8 @@ jobs:
       - name: Build and Export Next.js app
         run: |
           echo 'module.exports = {experimental: {output: true}}' > next.config.js
-          npm run build
+          next build
           npx next telemetry disable
-          npx next export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:

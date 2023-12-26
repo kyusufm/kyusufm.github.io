@@ -78,8 +78,8 @@ jobs:
       #   run: ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Build and export Next.js app
         run: |
-          next build
-          next export
+          npm run build
+          npx next export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

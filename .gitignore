@@ -11,6 +11,8 @@
 # next.js
 /.next/
 /out/
+.next/cache/
+next.config.js
 
 # production
 /build
@@ -35,8 +37,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .DS_Store
-.next/cache/webpack/client-development/2.pack.gz
-.next/cache/webpack/client-development/2.pack.gz
-.next/cache/webpack/client-development/2.pack.gz
-.next/cache/webpack/server-development/3.pack.gz
-.next/cache/webpack/server-development/index.pack.gz.old
+

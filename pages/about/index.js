@@ -20,8 +20,6 @@ import {
 // counter
 import CountUp from "react-countup";
 
-
-
 // about data
 const aboutData = [
   {
@@ -62,16 +60,27 @@ const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Sr.Software Engineer, Solve Education',
+        stage: '2023 - 2023',
+        desc: 'Develop and maintain web applications for the company.',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
+        title: 'Sr.Software Engineer, Connexio Cloud',
+        stage: '2022 - 2022',
+        desc: 'Develop and maintain web applications for the company.',
       },
       {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Lead Engineer, Kecegroup',
+        stage: '2017 - 2022',
+        desc: 'Develop and maintain web applications for the company.',
+      },
+      {
+        title: 'Lead Engineer, INASHIP',
+        stage: '2016 - 2017',
+      },
+      {
+        title: 'Sr.Web Developer, Asia Quest Indonesia',
+        stage: '2014 - 2016',
       },
     ],
   },
@@ -79,16 +88,12 @@ const aboutData = [
     title: 'credentials',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'Computer Science - Indonesia University of Education',
+        stage: '3.34',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
-      },
-      {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'Certified Javascript Data Structure and algorithm',
+        stage: '2022',
       },
     ],
   },
@@ -201,11 +206,13 @@ const About = () => {
         <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
           {aboutData[index].info.map((item, itemIndex) => {
             return (
-              <div key={itemIndex} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
+              <div key={itemIndex} className="flex-1 flex flex-col max-w-max gap-x-2 md:items-start items-center text-white/60">
                 {/* title */}
-                <div className="font-light mb-2 md:mb-0">{item.title} </div>
-                <div className="hidden md:flex">-</div>
-                <div>{item.stage}</div>
+                <div className="flex-1 flex flex-col">
+                  <div className="font-light mb-2 md:mb-0">{item.title} </div>
+                  <div>{item.stage}</div>
+                  <div>{item.desc}</div>
+                </div>
                 {/* icons   */}
                 <div className="flex gap-x-4">
                   {item.icons?.map((icon, itemIndex) => {

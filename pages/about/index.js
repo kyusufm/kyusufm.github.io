@@ -64,10 +64,12 @@ const aboutData = [
       {
         title: 'Lead Engineer, INASHIP',
         stage: '2016 - 2017',
+        desc: 'Develop and maintain web applications for the company.',
       },
       {
         title: 'Sr.Web Developer, Asia Quest Indonesia',
         stage: '2014 - 2016',
+        desc: 'Develop and maintain web applications for the company.',
       },
     ],
   },
@@ -94,7 +96,7 @@ const aboutData = [
       },
       {
         title: 'Certified Javascript Data Structure and algorithm',
-        stage: '2022',
+        stage: 'freecodecamp.org',
       },
     ],
   },

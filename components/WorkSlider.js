@@ -80,7 +80,7 @@ const WorkSlider = () => {
     modules={[Pagination]}
     className="h-[240px] sm:h-[340px]">
       {
-        WorkSlider.slides.map((item, index) => {
+        workSlides.slides.map((service, index) => {
           return(
             <SwiperSlide key={index}>
             

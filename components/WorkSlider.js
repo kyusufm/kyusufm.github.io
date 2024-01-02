@@ -84,7 +84,7 @@ const WorkSlider = () => {
                           {/* image */}
                           <Image src={image.path} width={500} height={300} alt=""/>
                           <div className="absolute inset-0 mx-2 mt-2">{image.title}</div>
-                          <div className="absolute -mt-8 mx-2 font-extralight text-xs">{image.desc}</div>
+                          <div className="btn bg-accent absolute -mt-8 mx-2 font-extralight text-xs">{image.desc}</div>
                           {/* overlay gradient */}
                           <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
                             {/* title */}

@@ -23,29 +23,30 @@ import { space } from "postcss/lib/list";
 // service data
 export const serviceData = [
   {
+    icon: <RxDesktop />,
+    title: 'Application Development',
+    description: 'From concept to deployment, transforming ideas into feature-rich, fully functional applications.',
+  },
+  {
     icon: <RxCrop />,
-    title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Front-End Development',
+    description: 'Crafting visually stunning and user-friendly interfaces that captivate and engage.',
   },
   {
     icon: <RxPencil2 />,
-    title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Back-End Development',
+    description: 'Building robust server-side solutions for seamless functionality and performance.',
   },
-  {
-    icon: <RxDesktop />,
-    title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
+  
   {
     icon: <RxReader />,
     title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Weave words into your success story. From captivating content to SEO optimization, lets craft messaging that engages, converts, and establishes a memorable brand voice',
   },
   {
     icon: <RxRocket />,
-    title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'UI Design',
+    description: 'Elevating user experiences with aesthetically pleasing and intuitive design.',
   },
 ];
 

@@ -12,6 +12,9 @@ import { BsArrowRight } from "react-icons/bs";
 // next image
 import Image from "next/image";
 
+// links
+import Link from "next/link";
+
 // import require modules
 import { Pagination } from "swiper";
 import { space } from "postcss/lib/list";
@@ -20,19 +23,20 @@ const workSlider = {
     {
       images: [
         {
-          title: 'title',
+          title: 'SE Website',
+          desc: 'Debug content on Solve Education Website',
           path: '/thumb1.jpg',
         },
         {
-          title: 'title 2',
+          title: 'TigaExpress',
           path: '/thumb2.jpg',
         },
         {
-          title: 'title 3',
+          title: 'KINSYS',
           path: '/thumb3.jpg',
         },
         {
-          title: 'title 4',
+          title: 'Keceline.co.id',
           path: '/thumb4.jpg',
         },
       ],
@@ -40,19 +44,19 @@ const workSlider = {
     {
       images: [
         {
-          title: 'title 1',
+          title: 'Kecegroup Accounting',
           path: '/thumb4.jpg',
         },
         {
-          title: 'title 2',
+          title: 'Kecegroup Domestic',
           path: '/thumb1.jpg',
         },
         {
-          title: 'title 3',
+          title: 'Tiga Expres Courier App',
           path: '/thumb2.jpg',
         },
         {
-          title: 'title 4',
+          title: 'Tiga Sekawan Company Profile',
           path: '/thumb3.jpg',
         },
       ],
@@ -79,10 +83,13 @@ const WorkSlider = () => {
                         <div className="flex items-center justify-center relative overflow-hidden group">
                           {/* image */}
                           <Image src={image.path} width={500} height={300} alt=""/>
+                          <div className="absolute inset-0 mx-2 mt-2">{image.title}</div>
+                          <div className="absolute -mt-8 mx-2 font-extralight text-xs">{image.desc}</div>
                           {/* overlay gradient */}
                           <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
                             {/* title */}
                             <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
+                            <Link href={''} className="hover:text-accent transition-all duration-300">
                               <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]">
                                 {/* title part 1 */}
                                 <div className="delay-100">LIVE</div>
@@ -93,6 +100,7 @@ const WorkSlider = () => {
                                   <BsArrowRight />
                                 </div>
                               </div>
+                              </Link>
                             </div>
                           </div>
                         </div>

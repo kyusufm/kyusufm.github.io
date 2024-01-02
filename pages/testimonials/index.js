@@ -15,7 +15,8 @@ const Testimonials = () => {
         animate='show'
         exit='hidden'
         className="h2 mb-8 xl:mb-0">
-          What clients <span className="text-accent">say</span> about us."
+          {/* What clients <span className="text-accent">say</span> about me." */}
+          There's <span className="text-accent">no testimonial yet</span>. below are just sample.
         </motion.h2>
         {/* slider */}
         <motion.div

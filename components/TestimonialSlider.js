@@ -23,24 +23,24 @@ import { space } from "postcss/lib/list";
 const testimonialData = [
   {
     image: '/t-avt-1.png',
-    name: 'Anne Smith',
+    name: 'Jonathan Brown',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Gracias!',
   },
   {
     image: '/t-avt-2.png',
-    name: 'Jane Doe',
+    name: 'Kirk Stalagtite',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Very Nice to collaborate!',
   },
   {
     image: '/t-avt-3.png',
-    name: 'Jhon Doe',
+    name: 'Emma Julaeha',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Looking forward to another chance to collaborate!',
   },
 ];
 

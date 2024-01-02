@@ -36,7 +36,7 @@ const Home = () => {
             animate="show"
             exit="hidden"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam, quod, quia, quibusdam quisquam quod quia quibusdam quisquam quod quia quibusdam quisquam quod quia quibusdam quisquam quod quia quibusdam quisquam quod.
+            I bring a dynamic blend of front-end, back-end, and application development expertise, coupled with a keen eye for UI design. Let's transform your digital vision into reality – innovation starts here! 
           </motion.p>
           {/* button */}
           <div className="flex justify-center xl:hidden relative ">

@@ -8,6 +8,12 @@ import {
   FaReact,
   FaWordpress,
   FaFigma,
+  FaLaravel,
+  FaPython,
+  FaAndroid,
+  FaApple,
+  FaAmazon,
+  FaGoogle,
 } from "react-icons/fa";
 
 import {
@@ -33,13 +39,22 @@ const aboutData = [
           <FaJs />,
           <FaReact />,
           <SiNextdotjs />,
-          <SiFramer />,
           <FaWordpress />,
+          <FaLaravel />,
+          <FaPython />,
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [<FaFigma />, <SiAdobephotoshop />],
+      },
+      {
+        title: 'Mobile Development',
+        icons: [<FaAndroid />, <FaReact />, <FaApple/>],
+      },
+      {
+        title: 'Server Tech',
+        icons: [<FaAmazon />, <FaGoogle/>],
       },
     ],
   },
@@ -49,26 +64,37 @@ const aboutData = [
       {
         title: 'Sr.Software Engineer, Solve Education',
         stage: '2023 - 2023',
-        desc: 'Develop and maintain web applications for the company.',
+        desc: 'Doing new feature development, Improving API response time. Suggesting better workflow, introduce docker to the team, Doing code review.',
       },
       {
         title: 'Sr.Software Engineer, Connexio Cloud',
         stage: '2022 - 2022',
-        desc: 'Develop and maintain web applications for the company.',
+        desc: 'Implement new feature, Add Testing and review code',
       },
       {
         title: 'Lead Engineer, Kecegroup',
         stage: '2017 - 2022',
-        desc: 'Develop and maintain web applications for the company.',
+        desc: 'Develop multiple application to improve and manage company logistics data. Lead small team engineer to build and manage several application that we develop',
+
       },
       {
         title: 'Lead Engineer, INASHIP',
         stage: '2016 - 2017',
-        desc: 'Develop and maintain web applications for the company.',
+        desc: 'Build logistic startup with small team. Develop the app using laravel, postgresql, and host it in AWS. ',
       },
       {
         title: 'Sr.Web Developer, Asia Quest Indonesia',
         stage: '2014 - 2016',
+        desc: 'Build multiple website and web application for the client of the company',
+      },
+      {
+        title: 'Instructor / Programmer, Kemendikbud RI',
+        stage: '2012 - 2013',
+        desc: 'Instruct and guide teacher accross indonesia to use "DAPODIK" application ',
+      },
+      {
+        title: 'Programmer, Rintis Sejahtera (ATM Prima)',
+        stage: '2012 - 2012',
         desc: 'Develop and maintain web applications for the company.',
       },
     ],
@@ -77,12 +103,9 @@ const aboutData = [
     title: 'awards',
     info: [
       {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
-      },
-      {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
+        title: 'Nothing',
+        stage: '2011 - 2023',
+        desc: 'No awards yet, gonna have 1 this year. InsyaAllah',
       },
     ],
   },
@@ -141,7 +164,7 @@ const About = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"> more than 10 years ago, I began work as a developer. Since 2 years ago, I've done remote work for agencies, consulted for startups, and collaborated on digital products for business and consumer</motion.p>
+          className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"> More than 10 years ago, I began work as a Software engineer. Since 2 years ago, I've done remote work for company, Now i am focusing on freelancing as a software engineer and designer</motion.p>
         {/* counters */}
         <motion.div 
           variants={fadeIn('right', 0.6)}
@@ -209,12 +232,20 @@ const About = () => {
         <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
           {aboutData[index].info.map((item, itemIndex) => {
             return (
-              <div key={itemIndex} className="flex-1 flex flex-col max-w-max gap-x-2 md:items-start items-center text-white/60">
+              <div 
+                variants={fadeIn('up', 0.4)}
+                initial="hidden"
+                animate="show"
+                exit="hidden"
+              key={itemIndex} className="flex-1 flex flex-col max-w-max gap-x-2 md:items-start items-center text-white/60">
                 {/* title */}
                 <div className="flex-1 flex flex-col">
-                  <div className="font-light mb-2 md:mb-0">{item.title} </div>
-                  <div>{item.stage}</div>
-                  <div>{item.desc}</div>
+                  <div className="font-light mb-2 md:mb-0">{item.title} 
+                    {item.stage && (
+                      <span className="text-xs font-extralight">({item.stage})</span>
+                    )}  
+                  </div>
+                  <div className="text-sm font-extralight">{item.desc}</div>
                 </div>
                 {/* icons   */}
                 <div className="flex gap-x-4">

@@ -165,6 +165,9 @@ const About = () => {
           animate="show"
           exit="hidden"
           className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"> More than 10 years ago, I began work as a Software engineer. Since 2 years ago, I've done remote work for company, Now i am focusing on freelancing as a software engineer and designer</motion.p>
+        {/* download button */}
+        <a href="/resume.pdf" download className="btn btn-accent">Download Resume</a>
+
         {/* counters */}
         <motion.div 
           variants={fadeIn('right', 0.6)}

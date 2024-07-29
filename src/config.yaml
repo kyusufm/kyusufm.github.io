@@ -1,10 +1,10 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Yusuf K
+  site: 'https://kyusufm.github.io'
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: xxx
 
 # Default SEO metadata
 metadata:
@@ -16,15 +16,15 @@ metadata:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: K Yusuf Muhammad
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@kyusufm'
+    site: '@kyusufm'
     cardType: summary_large_image
 
 i18n:
